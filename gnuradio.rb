@@ -27,7 +27,7 @@ class Gnuradio < Formula
   depends_on 'doxygen' if ARGV.include?('--with-docs')
 
   fails_with :clang do
-    build 421
+    build 600
     cause "Fails to compile .S files."
   end
 
